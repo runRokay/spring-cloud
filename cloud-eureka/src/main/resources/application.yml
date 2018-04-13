@@ -1,0 +1,18 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: cloudeureka
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+     defaultZone : http://admin:admin@localhost:${server.port}/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    password: admin
+    name: admin
