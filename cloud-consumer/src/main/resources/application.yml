@@ -8,7 +8,11 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:admin@localhost:8761/eureka/  #注册中心地址
+      defaultZone: http://admin:admin@localhost:8761/eureka/#注册中心地址
+hystrix:
+  dashboard:
+    enable-ignore-connection-close-header: true
+
 
 #security:
 #  basic:
