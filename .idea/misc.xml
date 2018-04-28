@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/cloud-apiservice" />
     <file type="web" url="file://$PROJECT_DIR$/cloud-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/cloud-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-zuul" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-apiservice/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
       </list>
     </option>
   </component>

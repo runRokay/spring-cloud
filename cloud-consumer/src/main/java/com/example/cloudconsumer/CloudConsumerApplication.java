@@ -12,9 +12,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableDiscoveryClient //启用服务注册与发现
 @EnableFeignClients  //启用feign进行远程调用
-@EnableEurekaClient
+@EnableEurekaClient //启用服务注册与发现
 @EnableHystrixDashboard
 @EnableCircuitBreaker
 public class CloudConsumerApplication {
