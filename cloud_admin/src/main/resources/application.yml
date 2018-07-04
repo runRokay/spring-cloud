@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: cloud-admin  #应用程序名
+
+server:
+  port: 9093   #端口号
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8761/eureka/ #注册中心地址
+info:
+  app: cloud-admin
+
+management:
+  security:
+    enabled: false
+
+spring:
+  boot:
+    admin:
+      context-path: /admin
+      client:
+        prefer-ip: true
+      url: http://localhost:9093/admin
